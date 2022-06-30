@@ -1,0 +1,105 @@
+
+/*-----------------Sofia_pro---------------*/
+
+/*Regular*/
+@font-face {
+    font-family: "Sofia_pro";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Sofia_pro"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Sofia_Pro_Regular.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Sofia_Pro_Regular.woff") format("woff");
+}
+
+/*Medium*/
+@font-face {
+    font-family: "Sofia_pro";
+    font-style: normal;
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Sofia_pro"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Sofia_Pro_Medium.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Sofia_Pro_Medium.woff") format("woff");
+}
+
+/*SemiBold*/
+@font-face {
+    font-family: "Sofia_pro";
+    font-style: normal;
+    font-weight: 600;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Sofia_pro"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Sofia_Pro_SemiBold.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Sofia_Pro_SemiBold.woff") format("woff");
+}
+
+/*Bold*/
+@font-face {
+    font-family: "Sofia_pro";
+    font-style: normal;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Sofia_pro"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Sofia_Pro_Bold.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Sofia_Pro_Bold.woff") format("woff");
+}
+
+/*Black*/
+@font-face {
+    font-family: "Sofia_pro";
+    font-style: normal;
+    font-weight: 900;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Sofia_pro"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Sofia_Pro_Black.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Sofia_Pro_Black.woff") format("woff");
+}
+
+/*-----------------inter---------------*/
+
+/*Regular*/
+@font-face {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("inter"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/inter_Regular.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/inter_Regular.woff") format("woff");
+}
+
+/*Medium*/
+@font-face {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("inter"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/inter_Medium.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/inter_Medium.woff") format("woff");
+}
+
+/*-----------------Poppins---------------*/
+
+/*Regular*/
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Poppins"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Poppins-Regular.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Poppins-Regular.woff") format("woff");
+}
+
+/*Medium*/
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Poppins"),
+        /* Если не получилось, загрузит woff2 */ url("/src/fonts/Poppins-Medium.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */ url("/src/fonts/Poppins-Medium.woff") format("woff");
+}
