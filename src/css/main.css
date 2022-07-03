@@ -14,6 +14,15 @@ body{
     overflow-x: hidden;
 }
 
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    color: #191919;
+}
+
+
+
 .red{
     color:#F54748;
 }
@@ -488,26 +497,23 @@ body{
 
 .special-offers__header{
     text-align: center;
-
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 68px;
     text-transform: capitalize;
-    color: #191919;
 }
 
-.special-offers__introduction{
+.special-offers__text{
     margin-top: 26px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 856px;
 
+    text-transform: capitalize;
+}
+
+.text-style{
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    text-transform: capitalize;
-    width: 856px;
-
     color: #191919;
     opacity: 0.8;
 }
@@ -648,20 +654,23 @@ body{
 
 }
 
-.card__order-btn{
+.btn{
     display: flex;
     font-family: 'Sofia Pro', sans-serif ;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
-    padding: 10px 21px;
+    line-height: 21px;
+    padding: 10px 21px 14px 21px;
     border: none;
     background: #F54748;
     border-radius: 100px;
     color: #FFFFFF;
+}
+
+.card__order-btn{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .special-offers__cards{
@@ -684,7 +693,26 @@ body{
 }
 
 .about{
-    margin-top: 348px;
+    position: relative;
+    background-image: url("../img/bg__about.webp");
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+    background-size: cover;
+}
+
+.about::after{
+    position: absolute;
+    content: "";
+    top: 255px;
+    left: 10px;
+    background-image: url("../img/decoration2.png");
+    width: 194px;
+    height: 181px;
+}
+
+
+.about__container{
+    padding-top: 348px;
 }
 
 .picture__container{
@@ -736,11 +764,103 @@ body{
     left: -38px;
 }
 
+.picture__background-and-chef::after{
+    position: absolute;
+    content: "";
+    left: -41px;
+    top: 361px;
+    background-image: url(../img/parsley.webp);
+    width: 271px;
+    height: 179px;
+    transform: rotate(16deg) scale(47%);
+}
+
+.picture__background-and-chef::before{
+    position: absolute;
+    content: "";
+    left: 383px;
+    top: 95px;
+    background-image: url(../img/Decore.png);
+    width: 98px;
+    height: 254px;
+}
+
+.picture__arrow{
+    position: absolute;
+    top: -84px;
+    left: 379px;
+    width: 411px;
+    height: 120px;
+}
+
+.picture__spices{
+    position: absolute;
+    top: -51px;
+    left: 272px;
+    width: 209px;
+    height: 207px;
+}
 
 
 
+.container--grid{
+    display: grid;
+    grid-template-columns: 0.78fr 1fr;
+}
 
+.dignity__heading{
+    width: 400px;
+    line-height: 129.9%;
+}
 
+.dignity{
+    padding-right: 39px;
+}
+
+.about__dignity{
+    margin-top: 32px;
+}
+
+.dignity__text{
+    margin-top: 23px;
+}
+
+.dignity-list__item{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.dignity-list__image{
+    width: 26px;
+    height: 26px;
+}
+
+.dignity-list__text{
+    font-family: 'Sofia Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #191919;
+}
+
+.dignity__dignity-list{
+    margin-top: 30px;
+}
+
+.dignity-list{
+    display: grid;
+    grid-template-columns: 1fr 1.67fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.dignity__btn{
+    margin-top: 37px;
+    margin-right: auto;
+}
 
 
 
