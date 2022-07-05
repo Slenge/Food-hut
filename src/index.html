@@ -11,18 +11,18 @@
 
   <header class="header">
   <div class="container">
-    <div class="header__menu">
-      <a class="menu__link" href="#">
+    <div class="header__header-menu">
+      <a class="header-menu__link" href="#">
         <img class="header__logo" src="img/Logo.svg" alt="Food Hut">
       </a>
-      <div class="menu">
-        <ul class="menu__nav">
+      <div class="header-menu">
+        <ul class="header-menu__nav">
           <li class="nav__item"> <a class="nav__link" href="#">Today Special Offers</a></li>
           <li class="nav__item"> <a class="nav__link" href="#">Why FoodHu</a>t</li>
           <li class="nav__item"> <a class="nav__link" href="#">Our Menu</a></li>
           <li class="nav__item"> <a class="nav__link" href="#">Our Popular Food</a></li>
         </ul>
-        <button class="menu__btn">Download App</button>
+        <button class="header-menu__btn">Download App</button>
       </div>
     </div>
     <div class="header__preview">
@@ -41,17 +41,17 @@
           </label>
         </form>
         <div class="about__video">
-          <button class="menu__btn">Download App</button>
+          <button class="about__btn btn">Download App</button>
           <button class="video__btn"></button>
           <p class="video__description">Watch Video</p>
         </div>
       </div>
-      <div class="preview__pictures">
-        <img class="pictures__main" src="img/Woman.webp" alt="woman with food">
-        <img class="pictures__parsley" src="img/parsley.webp" alt="parsley">
-        <img class="pictures__stripes" src="img/stripes.webp" alt="" width="379" height="734">
-        <a href="#" class="picture__link">
-          <div class="pictures__card">
+      <div class="preview__header-pictures">
+        <img class="header-pictures__main" src="img/Woman.webp" alt="woman with food">
+        <img class="header-pictures__parsley" src="img/parsley.webp" alt="parsley">
+        <img class="header-pictures__stripes" src="img/stripes.webp" alt="" width="379" height="734">
+        <a href="#" class="header-pictures__link">
+          <div class="header-pictures__card">
           <img class="card__logo" src="img/card.png" alt="italian pizza">
           <div class="card__info">
             <p class="info__name">italian Pizza</p>
@@ -59,8 +59,8 @@
           </div>
         </div>
         </a>
-        <a href="#" class="pictures__link">
-          <div class="pictures__customer">
+        <a href="#" class="header-pictures__link">
+          <div class="header-pictures__customer">
           <img class="customer__logo" src="img/smile.png" alt="smile" width="52" height="40">
           <div class="customer__text">
             <p class="text__name">Our Happy Customer</p>
@@ -68,10 +68,18 @@
           </div>
         </div>
         </a>
-        <a href="#" class="pictures__link"><img src="img/dish_1.webp" alt="dish" class="pictures__dish pictures__dish--1_location" width="171" height="166"></a>
-        <a href="#" class="pictures__link"><img src="img/dish_2.webp" alt="dish" class="pictures__dish pictures__dish--2_location" width="153" height="152"></a>
-        <a href="#" class="pictures__link"><img src="img/dish_3.webp" alt="dish" class="pictures__dish pictures__dish--3_location" width="178" height="162"></a>
-        <a href="#" class="pictures__link"><img src="img/dish_4.webp" alt="dish" class="pictures__dish pictures__dish--4_location" width="133" height="133"></a>
+        <a href="#" class="header-pictures__link">
+          <img src="img/dish_1.webp" alt="dish" class="header-pictures__dish header-pictures__dish--1_location" width="171" height="166">
+        </a>
+        <a href="#" class="header-pictures__link">
+          <img src="img/dish_2.webp" alt="dish" class="header-pictures__dish header-pictures__dish--2_location" width="153" height="152">
+        </a>
+        <a href="#" class="header-pictures__link">
+          <img src="img/dish_3.webp" alt="dish" class="header-pictures__dish header-pictures__dish--3_location" width="178" height="162">
+        </a>
+        <a href="#" class="header-pictures__link">
+          <img src="img/dish_4.webp" alt="dish" class="header-pictures__dish header-pictures__dish--4_location" width="133" height="133">
+        </a>
       </div>
     </div>
     <button class="header__scroll_btn">
@@ -85,7 +93,7 @@
     <div class="container">
       <h2 class="special-offers__header">Today <span class="red">special</span>  offers</h2>
       <p class="special-offers__text text-style">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-      <div class="special-offers__cards">
+      <div class="special-offers__cards cards">
         <div class="cards__card card">
           <div class="card__image-container">
             <img src="img/food-item-1.webp" alt="food" class="card__image">
@@ -234,11 +242,262 @@
     </div>
   </div>
 
+  <div class="our-menu">
+    <div class="container our-menu__container">
+      <h2 class="our-menu__title"><span class="red">Menu</span> that <span class="yellow">always</span> make you fall in <span class="red">love</span></h2>
+      <ul class="our-menu__menu">
+        <li class="menu__item">
+          <button class="menu__button btn">Ramen</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Breakfast</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Lunch</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Dinner</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Maxican</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Italian</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Desserts</button>
+        </li>
+        <li class="menu__item">
+          <button class="menu__button btn">Drinks</button>
+        </li>
+      </ul>
+      <div class="our-menu__cards cards">
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-1.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-5.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-6.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-7.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-8.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-9.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-10.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+        <div class="cards__card card">
+          <div class="card__image-container">
+            <img src="img/food-item-11.webp" alt="food" class="card__image">
+          </div>
+          <div class="card__price">
+            <p class="price__number">10$</p>
+          </div>
+          <div class="card__rating rating">
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar1.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar2.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <div class="rating__avatar-container">
+              <img src="img/user_awatar3.png" alt="user_avatar" class="rating__avatar">
+            </div>
+            <p class="rating__rate">(4.5)</p>
+          </div>
+          <h3 class="card__title">Kebab</h3>
+          <p class="card__description">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+          <button class="card__order-btn btn">Order Now</button>
+        </div>
+    </div>
+  </div>
+   </div>
 
+  <div class="mobile-app">
+      <div class="container mobile-app__container container--grid">
+        <div class="mobile-app__text-area">
+          <h2 class="mobile-app__heading">It’s Now <span class="red">More Easy</span> to
+            <span class="yellow">Order</span> by Our Mobile <span class="red">App</span></h2>
+          <p class="mobile-app__text text-style">All you need to do is downlode one of the best
+            delivery apps, make a and most companies are opting  for mobile app devlopment for
+            food delivery</p>
+          <div class="mobile-app__links">
+             <a href="#" class="mobile-app__link">
+               <img class="mobile-app__link-picture-goggle" src="img/Mobile_ggl_store_badge.webp" alt="Goggle store link">
+             </a>
+             <a href="#" class="mobile-app__link">
+               <img class="mobile-app__link-picture-apple" src="img/Mobile_app_store_badge1.webp" alt="Appstore link">
+             </a>
+          </div>
+        </div>
+        <div class="mobile-app__mobile-app-picture-area mobile-app-picture-area">
+            <img class="mobile-app-picture-area__ellipse" width="570" height="570" src="img/Ellipse-chef-2.webp" alt="ellipse" >
+            <img class="mobile-app-picture-area__arrow" src="img/Arrow_4.png" width="158" height="215" alt="arrow" >
+            <img class="mobile-app-picture-area__chef" src="img/chef2.webp" width="476" height="645" alt="chef" >
+            <img class="mobile-app-picture-area__spices" src="img/spice2.webp" width="335" height="333" alt="spice" >
 
-
-
-
+            <a href="#" class="mobile-app-pictures__link">
+              <img src="img/dish_1.webp" alt="dish" class="mobile-app-pictures__dish mobile-app-pictures__dish--1_location" width="171" height="166">
+            </a>
+            <a href="#" class="mobile-app-pictures__link">
+              <img src="img/dish_2.webp" alt="dish" class="mobile-app-pictures__dish mobile-app-pictures__dish--2_location" width="153" height="152">
+            </a>
+            <a href="#" class="mobile-app-pictures__link">
+              <img src="img/dish_3.webp" alt="dish" class="mobile-app-pictures__dish mobile-app-pictures__dish--3_location" width="178" height="162">
+            </a>
+            <a href="#" class="mobile-app-pictures__link">
+              <img src="img/dish_4.webp" alt="dish" class="mobile-app-pictures__dish mobile-app-pictures__dish--4_location" width="133" height="133">
+            </a>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>
