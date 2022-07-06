@@ -13,16 +13,24 @@
   <div class="container">
     <div class="header__header-menu">
       <a class="header-menu__link" href="#">
-        <img class="header__logo" src="img/Logo.svg" alt="Food Hut">
+        <div class="header__logo"></div>
       </a>
       <div class="header-menu">
         <ul class="header-menu__nav">
-          <li class="nav__item"> <a class="nav__link" href="#">Today Special Offers</a></li>
-          <li class="nav__item"> <a class="nav__link" href="#">Why FoodHu</a>t</li>
-          <li class="nav__item"> <a class="nav__link" href="#">Our Menu</a></li>
-          <li class="nav__item"> <a class="nav__link" href="#">Our Popular Food</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Today Special Offers</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Why FoodHut</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Our Menu</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Our Popular Food</a>
+          </li>
         </ul>
-        <button class="header-menu__btn">Download App</button>
+        <button class="header-menu__btn btn">Download App</button>
       </div>
     </div>
     <div class="header__preview">
@@ -44,6 +52,9 @@
           <button class="about__btn btn">Download App</button>
           <button class="video__btn"></button>
           <p class="video__description">Watch Video</p>
+          <button class="header__scroll_btn">
+            <img src="img/slider.svg" alt="slider_btn" class="scroll_btn__image">
+          </button>
         </div>
       </div>
       <div class="preview__header-pictures">
@@ -109,12 +120,6 @@
         </a>
       </div>
     </div>
-    <button class="header__scroll_btn">
-      <picture class="scroll_btn__image">
-        <source type="image/webp" srcset="img/slider.webp">
-        <img src="img/old/slider.png" alt="slider_btn" width="23" height="61">
-      </picture>
-    </button>
 
   </div>
 </header>
@@ -667,28 +672,14 @@
             delivery apps, make a and most companies are opting  for mobile app devlopment for
             food delivery</p>
           <div class="mobile-app__links">
-             <a href="#" class="mobile-app__link">
-               <picture class="mobile-app__link-picture-goggle">
-                 <source type="image/webp" srcset="img/Mobile_ggl_store_badge.webp">
-                 <img src="img/old/Mobile_ggl_store_badge.png" alt="Goggle store link">
-               </picture>
-             </a>
-             <a href="#" class="mobile-app__link">
-               <picture class="mobile-app__link-picture-apple">
-                 <source type="image/webp" srcset="img/Mobile_app_store_badge1.webp">
-                 <img src="img/old/Mobile_app_store_badge1.png" alt="Appstore link">
-               </picture>
-               </a>
+             <a href="#" class="mobile-app__link mobile-app__link-picture-google"></a>
+             <a href="#" class="mobile-app__link mobile-app__link-picture-apple"></a>
           </div>
         </div>
         <div class="mobile-app__mobile-app-picture-area mobile-app-picture-area">
           <picture class="mobile-app-picture-area__ellipse" >
             <source type="image/webp" srcset="img/Ellipse-chef-2.webp" >
             <img src="img/old/Ellipse-chef-2.png" alt="ellipse" width="570" height="570">
-          </picture>
-          <picture class="mobile-app-picture-area__arrow" >
-            <source type="image/webp" srcset="img/Arrow_4.webp" >
-            <img src="img/old/Arrow_4.png" alt="arrow" width="158" height="215">
           </picture>
           <picture class="mobile-app-picture-area__chef" >
             <source type="image/webp" srcset="img/chef2.webp" >
@@ -732,7 +723,7 @@
     <div class="footer-container container">
 
       <div class="footer__social">
-        <h4 class="footer__main-title">Foodhut</h4>
+        <h4 class="footer__main-title"><a href="#" class="main-title__link">Foodhut</a></h4>
         <p class="social__text text-style">Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor </p>
         <div class="social__icon">
