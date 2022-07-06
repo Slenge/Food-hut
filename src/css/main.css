@@ -21,7 +21,6 @@ h2{
     color: #191919;
 }
 
-
 .classic-link{
     text-decoration: none;
     color: #191919;
@@ -498,7 +497,7 @@ h2{
 .special-offers::after{
     position: absolute;
     content: "";
-    background-image: url("../img/decoration1.webp");
+    background-image: url("../img/old/decoration1.png");
     width: 212px;
     height: 188px;
     top: 78px;
@@ -609,15 +608,15 @@ h2{
 }
 
 .rating__avatar--1{
-    background-image: url(../img/user_awatar1.png);
+    background-image: url(../img/old/user_awatar1.png);
 }
 
 .rating__avatar--2{
-    background-image: url(../img/user_awatar2.png);
+    background-image: url(../img/old/user_awatar2.png);
 }
 
 .rating__avatar--3{
-    background-image: url(../img/user_awatar3.png);
+    background-image: url(../img/old/user_awatar3.png);
 }
 
 .rating__rate{
@@ -675,6 +674,7 @@ h2{
     background: #F54748;
     border-radius: 100px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .card__order-btn{
@@ -709,7 +709,7 @@ h2{
 
 .about{
     position: relative;
-    background-image: url("../img/bg__about.webp");
+    background-image: url("../img/bg__about.png");
     background-repeat: no-repeat;
     background-position: top -130px left 0;
     background-size: 1440px 1311px;
@@ -723,6 +723,7 @@ h2{
     background-image: url("../img/decoration2.png");
     width: 194px;
     height: 181px;
+    z-index: -1;
 }
 
 
@@ -786,7 +787,7 @@ h2{
     content: "";
     left: -41px;
     top: 361px;
-    background-image: url(../img/parsley.webp);
+    background-image: url(../img/old/parsley.png);
     width: 271px;
     height: 179px;
     transform: rotate(16deg) scale(47%);
@@ -912,7 +913,7 @@ h2{
 
 
 .mobile-app{
-    background-image: url("../img/mobile-app-bg.webp");
+    background-image: url("../img/mobile-app-bg.png");
     background-size: cover;
     background-position: top -120px left 0;
     background-repeat: no-repeat;
@@ -955,7 +956,7 @@ h2{
 
 .mobile-app-picture-area{
     position: relative;
-    background-image: url("../img/background_chef2.webp");
+    background-image: url("../img/old/background_chef2.jpg");
     border-radius: 50%;
     width: 476px;
     height: 476px;
@@ -969,7 +970,7 @@ h2{
     content: "";
     top: 439px;
     left: 232px;
-    background-image: url("../img/parsley.webp");
+    background-image: url("../img/old/parsley.png");
     background-repeat: no-repeat;
     width: 271px;
     height: 179px;
@@ -980,7 +981,7 @@ h2{
     content: "";
     top: 102px;
     left: 323px;
-    background-image: url(../img/stripes2.webp);
+    background-image: url(../img/old/stripes2.png);
     width: 300px;
     height: 658px;
     z-index: -1;
@@ -1081,11 +1082,6 @@ h2{
     line-height: 22px;
     color: #F54748;
 }
-
-
-
-
-
 
 .footer-form__input{
     background: rgba(25, 25, 25, 0.1);
