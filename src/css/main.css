@@ -162,6 +162,14 @@ h2{
     margin-right: -10px;
 }
 
+.menu__open{
+    background: none;
+    border: none;
+    margin-top: 16px;
+    margin-left: 20px;
+    display: none;
+}
+
 .header-pictures__stripes{
     position: absolute;
     top: -150px;
@@ -842,6 +850,7 @@ h2{
     content: "";
     top: 255px;
     left: 10px;
+    background-repeat: no-repeat;
     background-image: url("../img/decoration2.png");
     width: 194px;
     height: 181px;
@@ -1045,7 +1054,7 @@ h2{
 .mobile-app{
     background-image: url("../img/mobile-app-bg.png");
     background-size: cover;
-    background-position: top -120px left 0;
+    background-position: top -104px left 0;
     background-repeat: no-repeat;
 }
 
@@ -1060,7 +1069,41 @@ h2{
     position: absolute;
     top: -47px;
     left: -39px;
+    width: 570px;
+    height: 570px;
 }
+
+.mobile-app-picture-area__chef{
+    width: 476px;
+    height: 645px;
+}
+
+.mobile-app-picture-area__spices{
+    width: 335px;
+    height: 333px;
+}
+
+.mobile-app-pictures__dish_1{
+    width: 171px;
+    height: 166px;
+}
+
+.mobile-app-pictures__dish_2{
+    width: 153px;
+    height: 152px;
+}
+
+.mobile-app-pictures__dish_3{
+    width: 178px;
+    height: 162px;
+}
+
+.mobile-app-pictures__dish_4{
+    width: 133px;
+    height: 133px;
+}
+
+
 
 .mobile-app-picture-area__ellipse::before{
     position: absolute;
@@ -1188,10 +1231,6 @@ h2{
     justify-content: space-evenly;
     column-gap: 96px;
 
-}
-
-.container.footer-container{
-    padding: 0 126px;
 }
 
 .main-title__link{
@@ -1337,6 +1376,15 @@ h2{
 }
 
 
+.show-menu{
+    display: none;
+}
+
+.testimonials__slider{
+    display: none;
+}
+
+
 @media (prefers-color-scheme: dark) {
     :root {
         --text_main-color: #FFFFFF;
@@ -1374,11 +1422,420 @@ h2{
     }
 }
 
+
+
 @media screen and (max-width: 1440px) {
 
     :root{
-        --container_width: 300px;
-        --container_padding: 15px;
+        --container_width: 380px;
+        --container_padding: 10px;
+    }
+
+
+
+    .header__logo{
+        width: 97px;
+        height: 62px;
+        background-image: url(../img/mobile/Logo-m.svg);
+    }
+
+    .menu__open{
+        display: block;
+    }
+
+    .testimonials__slider{
+        display: block;
+    }
+
+    .special-offers__cards{
+        display: none;
+    }
+
+    .header{
+        padding-top: 25px;
+    }
+
+    .header-menu__nav{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        flex-direction: column;
+        background-color: var(--bg_color);
+        width: 310px;
+    }
+
+    .nav__link{
+
+    }
+
+    .preview__header-pictures{
+        display: none;
+    }
+
+    .header__header-menu::before {
+        display: none;
+    }
+    .header__header-menu::after {
+        display: none;
+    }
+
+    .header-menu__btn{
+        display: none;
+    }
+    .header__preview {
+        display: block;
+        margin-top: 3px;
+    }
+
+    .about__like {
+        margin-left: 9px;
+    }
+
+    .about__slogan{
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 135%;
+    }
+
+    .preview__about {
+        padding-right: 0;
+        margin-top: 66px;
+    }
+    .underline::after {
+        left: 0;
+        top: 197px;
+    }
+
+    .header::before {
+        top: 99px;
+        left: 526px;
+    }
+
+    .about__workers{
+        margin-top: 39px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .form__input {
+        width: 380px;
+        height: 54px;
+        margin-top: 34px;
+    }
+
+    .form__submit {
+        left: 333.5px;
+    }
+
+    .header__scroll_btn{
+        display: none;
+    }
+
+    .special-offers {
+        margin-top: 90px;
+    }
+
+    .special-offers::after{
+        display: none;
+    }
+
+    .special-offers__text {
+        width: auto;
+        margin-top: 17px;
+    }
+
+    .testimonials__slider{
+        margin-top: 65px;
+
+    }
+
+    .testimonials__slider::after{
+        position: absolute;
+        content: "";
+        background-image: url("../img/rosemary.png");
+        width: 176px;
+        height: 136px;
+        top: 804px;
+        left: 493px;
+        z-index: -1;
+    }
+
+    .about__container{
+        grid-template-columns: 1fr;
+        padding-top: 97px;
+        gap: 68px;
+    }
+
+    .about::after {
+        width: 145px;
+        height: 134px;
+        background-image: url(../img/mobile/decoration2-m.webp);
+    }
+
+    .picture__container{
+        margin-right: auto;
+        margin-left: auto;
+        gap: 3px;
+        width: 332px;
+        height: 332px;
+    }
+
+    .dignity__heading {
+        width: 295px;
+    }
+
+    .picture__ellipse {
+        top: -29px;
+        left: -1px;
+    }
+
+    .picture__chef {
+        top: -77px;
+        left: 24px;
+    }
+
+    .picture__background-and-chef::before{
+        display: none;
+    }
+
+    .picture__arrow{
+        display: none;
+    }
+
+    .picture__spices {
+        top: -38px;
+        left: 225px;
+    }
+
+    .picture__background-and-chef::after {
+        background-image: url(../img/mobile/parsley-m.webp);
+        background-repeat: no-repeat;
+        width: 111px;
+        height: 97px;
+        transform: none;
+        left: 37px;
+        top: 285px;
+    }
+
+    .dignity {
+        padding-right: 0;
+    }
+
+    .dignity__text {
+    margin-top: 32px;
+    }
+
+    .dignity-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .dignity__dignity-list {
+        margin-top: 80px;
+    }
+
+    .dignity__btn {
+        margin-top: 51px;
+    }
+
+    .our-menu__title {
+        width: auto;
+    }
+
+    .about__container {
+        padding-bottom: 110px;
+    }
+
+    .our-menu__menu{
+        flex-wrap: wrap;
+    }
+
+    .our-menu__cards{
+        display: none;
+    }
+
+
+    .mobile-app__container {
+        display: flex;
+        align-items: center;
+        gap: 134px;
+        margin-top: 94px;
+        padding-bottom: 178px;
+        flex-direction: column-reverse;
+    }
+
+    .mobile-app-picture-area__ellipse{
+        width: 366px;
+        height: 366px;
+    }
+
+    .mobile-app-picture-area__chef{
+        width: 300px;
+        height: 365px;
+    }
+
+    .mobile-app-picture-area__spices{
+        width: 211px;
+        height: 213px;
+    }
+
+    .mobile-app-pictures__dish_1{
+        width: 62px;
+        height: 62px;
+    }
+
+    .mobile-app-pictures__dish_2{
+        width: 56px;
+        height: 57px;
+    }
+
+    .mobile-app-pictures__dish_3{
+        width: 64px;
+        height: 62px;
+    }
+
+    .mobile-app-pictures__dish_4{
+        width: 50px;
+        height: 50px;
+    }
+
+    .mobile-app-picture-area::before{
+        display: none;
+    }
+
+    .mobile-app-picture-area {
+        width: 304px;
+        height: 304px;
+    }
+
+    .mobile-app-picture-area__ellipse {
+        top: -31px;
+        left: -31px;
+    }
+
+    .mobile-app-picture-area__chef {
+        top: -107px;
+        left: 0;
+    }
+
+    .mobile-app-picture-area__spices {
+        top: -108px;
+        left: 213px;
+    }
+
+    .mobile-app-pictures__dish {
+        transform: none;
+    }
+
+    .mobile-app-pictures__dish--1_location {
+        top: 273px;
+        left: 140px;
+    }
+
+    .mobile-app-pictures__dish--2_location {
+        top: 265px;
+        left: 190px;
+    }
+
+    .mobile-app-pictures__dish--3_location {
+        top: 235px;
+        left: 226px;
+    }
+
+    .mobile-app-pictures__dish--4_location {
+        top: 193px;
+        left: 270px;
+    }
+
+    .mobile-app-pictures__dish:hover{
+        transform: scale(150%) rotate(30deg);
+    }
+
+    .mobile-app-pictures__dish:active{
+        transform: scale(150%) rotate(30deg);
+    }
+
+    .mobile-app-picture-area__ellipse::before {
+        background-image: url(../img/mobile/Arrow_4-m.png);
+        width: 95px;
+        height: 138px;
+        top: 265px;
+        left: 301px;
+    }
+
+    .mobile-app__mobile-app-picture-area::after {
+        top: 280px;
+        left: 148px;
+        background-image: url(../img/mobile/parsley2-m.png);
+        width: 174px;
+        height: 115px;
+        z-index: -1;
+    }
+
+    .mobile-app__text {
+        margin-top: 26px;
+        padding-right: 5px;
+    }
+
+    .mobile-app__links {
+        margin-top: 42px;
+    }
+
+
+    .footer {
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 168px 188px 195px;
+        grid-template-areas:
+    "so so"
+    "abus co"
+    "eml eml";
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
+    .footer__social{
+        grid-area: so;
+    }
+
+    .footer__about-us{
+        grid-area: abus;
+    }
+
+    .footer__company{
+        grid-area: co;
+    }
+
+    .footer__email{
+        grid-area: eml;
+    }
+
+    .mobile-app__container {
+        padding-bottom: 162px;
+    }
+
+    .footer__social {
+        padding-right: 53px;
+    }
+
+    .social__text {
+        margin-top: 11px;
+    }
+
+    .social__icon {
+        margin-top: 22px;
+    }
+
+    .footer__email{
+        margin-top: 11px;
+    }
+
+    .footer__copyright {
+        margin-top: 90px;
     }
 
 }
