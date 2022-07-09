@@ -3,17 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Food Hut</title>
-  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/chief-slider.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
   <header class="header">
-  <div class="container">
+  <div class="container ">
     <div class="header__header-menu">
       <a class="header-menu__link" href="#">
-        <div class="header__logo"></div>
+        <picture class="header__logo" >
+          <source media="(max-width: 1440px) and (prefers-color-scheme: dark)" srcset="img/mobile_black_theme/Logo-m-b.svg">
+          <source media="(max-width: 1440px)" srcset="img/mobile/Logo-m.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="img/black_theme/Logo-b.svg" >
+          <img src="img/Logo.svg" alt="FoodHut">
+        </picture>
       </a>
       <div class="header-menu">
         <ul class="header-menu__nav menu__nav">
@@ -32,7 +40,7 @@
         </ul>
         <button class="header-menu__btn btn">Download App</button>
         <button class="menu__open">
-          <img src="img/menu.svg" alt="Open menu" width="36" height="27">
+          <img class="menu__open__image" src="img/menu.svg" alt="Open menu">
         </button>
       </div>
     </div>
@@ -71,7 +79,7 @@
         </picture>
         <picture class="header-pictures__stripes">
           <source type="image/webp" srcset="img/stripes.webp">
-          <img src="img/old/stripes.png" alt="stripes" width="379" height="734">
+          <img src="img/old/stripes.png" alt="stripes">
         </picture>
         <a href="#" class="header-pictures__link classic-link">
           <div class="header-pictures__card">
@@ -89,7 +97,7 @@
           <div class="header-pictures__customer">
           <picture class="customer__logo">
               <source type="image/webp" srcset="img/smile.webp">
-              <img src="img/old/smile.png" alt="smile" width="52" height="40">
+              <img src="img/old/smile.png" alt="smile">
             </picture>
           <div class="customer__text">
             <p class="text__name">Our Happy Customer</p>
@@ -98,27 +106,27 @@
         </div>
         </a>
         <a href="#" class="header-pictures__link classic-link">
-          <picture class="header-pictures__dish header-pictures__dish--1_location">
+          <picture class="header-pictures__dish header-pictures__dish--1_scale header-pictures__dish--1_location">
             <source type="image/webp" srcset="img/dish_1.webp">
-            <img src="img/old/dish_1.png" alt="dish" width="171" height="166">
+            <img src="img/old/dish_1.png" alt="dish">
           </picture>
         </a>
         <a href="#" class="header-pictures__link classic-link">
-          <picture class="header-pictures__dish header-pictures__dish--2_location">
+          <picture class="header-pictures__dish header-pictures__dish--2_scale header-pictures__dish--2_location">
             <source type="image/webp" srcset="img/dish_2.webp">
-            <img src="img/old/dish_2.png" alt="dish" width="153" height="152">
+            <img src="img/old/dish_2.png" alt="dish">
           </picture>
            </a>
         <a href="#" class="header-pictures__link classic-link">
-          <picture class="header-pictures__dish header-pictures__dish--3_location">
+          <picture class="header-pictures__dish header-pictures__dish--3_scale header-pictures__dish--3_location">
             <source type="image/webp" srcset="img/dish_3.webp">
-            <img src="img/old/dish_3.png" alt="dish" width="178" height="162">
+            <img src="img/old/dish_3.png" alt="dish">
           </picture>
         </a>
         <a href="#" class="header-pictures__link classic-link">
-          <picture class="header-pictures__dish header-pictures__dish--4_location">
+          <picture class="header-pictures__dish header-pictures__dish--4_scale header-pictures__dish--4_location">
             <source type="image/webp" srcset="img/dish_4.webp">
-            <img src="img/old/dish_4.png" alt="dish" width="133" height="133">
+            <img src="img/old/dish_4.png" alt="dish">
           </picture>
         </a>
       </div>
@@ -1205,7 +1213,13 @@
             <source type="image/webp" srcset="img/spice2.webp" >
             <img src="img/old/spice2.png" alt="spice">
           </picture>
-
+          <picture class="mobile-app-picture-area__arrow" >
+            <source media="(max-width: 1440px) and (prefers-color-scheme: dark)" srcset="img/mobile_black_theme/Arrow_4-m-b.png">
+            <source media="(max-width: 1440px)" srcset="img/mobile/Arrow_4-m.png">
+            <source media="(prefers-color-scheme: dark)" srcset="img/black_theme/Arrow_4-b.png" >
+            <source type="image/webp" srcset="img/Arrow_4.webp" >
+            <img src="img/old/Arrow_4.png" alt="">
+          </picture>
             <a href="#" class="mobile-app-pictures__link">
               <picture class="mobile-app-pictures__dish mobile-app-pictures__dish_1 mobile-app-pictures__dish--1_location" >
                 <source media="(max-width: 1440px)" srcset="img/mobile/dish_1-m.webp">
